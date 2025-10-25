@@ -1,86 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea shop</title>
     <!-- Tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"    rel="stylesheet">
-    <link rel="stylesheet" href="/style/style.css">
-    <script src="https://kit.fontawesome.com/c90fa4359c.js" crossorigin="anonymous"></script>
-</head>
-<body class="">
-    <div class="banner flex max-sm:mx-auto max-sm:flex-col md:flex-row md:justify-between md:max-w-7xl md:m-auto mt-[68px]" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c90fa4359c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="hero-sec mt-20 mx-auto">
+      <div
+        class="banner flex max-sm:mx-auto max-sm:flex-col md:flex-row md:justify-between md:max-w-7xl md:m-auto"
+      >
         <div class="banner-text max-sm:text-center">
-            <h1 class=" manrope-font max-sm:text-4xl banner-heading font-[600] text-7xl  text-black mb-5">It's good <br>
-            tea time at The <br> Tea House</h1>
-            <p class="manrope-font banner-text font-medium text-lg text-[#777777] w-[513px] mt-7">
-            Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.
-            </p>
-            <button class="manrope-font rounded-lg px-4 py-3 mt-7 bg-gradient-to-r from-orange-500 to-red-500 text-white inline-flex gap-2 items-center font-bold text-xl">Explore More <img src="./images/arrow.png" alt="" class=""></button>
+          <h1
+            class="manrope-font max-sm:text-4xl banner-heading font-[600] text-7xl text-black mb-5"
+          >
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p
+            class="manrope-font banner-text font-medium text-lg text-[#777777] w-[513px] mt-7"
+          >
+            Tea and Botanical Solutions Supplier Give Optimum <br />Satisfaction
+            To Your Taste Buds.
+          </p>
+          <button
+            class="manrope-font rounded-lg px-4 py-3 mt-7 bg-gradient-to-r from-orange-500 to-red-500 text-white inline-flex gap-2 items-center font-bold text-xl"
+          >
+            Explore More <img src="./images/arrow.png" alt="" class="" />
+          </button>
         </div>
         <div class="banner-img relative max-sm:m-5">
-            <img class="" src="./images/banner.png" alt="">
-            <div class="img-card max-sm:hidden absolute top-[386px] left-[80px] bg-white flex gap-2 items-center p-4 w-[255px] shadow-xl rounded-xl">
-                <div class="icon text-4xl "><i class="fa-solid fa-star"></i></div>
-                <div class="text">
-                    <h1 class="font-bold text-2xl manrope-font">5.00</h1>
-                    <p class="manrope-font">Trust Pilot Ratings</p>
-                </div>
+          <img class="" src="./images/banner.png" alt="" />
+          <div
+            class="img-card max-sm:hidden absolute top-[386px] left-[80px] bg-white flex gap-2 items-center p-4 w-[255px] shadow-xl rounded-xl"
+          >
+            <div class="icon text-4xl">
+              <i class="fa-solid fa-star text-orange-500"></i>
             </div>
+            <div class="text">
+              <h1 class="font-bold text-2xl manrope-font">5.00</h1>
+              <p class="manrope-font">Trust Pilot Ratings</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <section class="sec-1 max-w-[1140px] max-sm:p-5 md:p-0 max-sm:m-auto m-auto mt-[50px]">
-        <div class="sec-1-text max-sm:items-center">
-            <h1 class=" text-center manrope-font banner-heading font-[600] text-[45px] text-black mb-5">Our Featured Products</h1>
-            <p class=" text-center manrope-font banner-text font-medium text-lg text-[#777777]  mt-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+    <section
+      class="sec-1 max-w-[1140px] max-sm:p-5 md:p-0 max-sm:m-auto m-auto mt-[50px]"
+    >
+      <div class="sec-1-text max-sm:items-center">
+        <h1
+          class="text-center manrope-font banner-heading font-[600] text-[45px] text-black mb-5"
+        >
+          Our Featured Products
+        </h1>
+        <p
+          class="text-center manrope-font banner-text font-medium text-lg text-[#777777] mt-7"
+        >
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, <br />
+          by injected humour, or randomised words which don't look even slightly
+          believable.
+        </p>
+      </div>
+      <div
+        class="sec-1-cards flex justify-between max-sm:flex-col md:flex-row mt-9 text-center"
+      >
+        <div
+          class="manrope-font rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 sm:mb-4 max-sm:max-w-[350px] max-sm:mx-auto"
+        >
+          <img class="m-auto" src="./images/tea-1.png" alt="" />
+          <h1 class="font-extrabold text-[25px] mt-7 mb-3">Milk Tea</h1>
+          <p class="w-[208px] max-sm:m-auto">
+            Creamer could be replaced by fresh milk
+          </p>
         </div>
-        <div class="sec-1-cards flex justify-between max-sm:flex-col md:flex-row mt-9 text-center">
-            <div class="manrope-font rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 sm:mb-4 max-sm:max-w-[350px] max-sm:mx-auto">
-                <img class="m-auto" src="./images/tea-1.png" alt="">
-                <h1 class="font-extrabold text-[25px] mt-7 mb-3">Milk Tea</h1>
-                <p class="w-[208px] max-sm:m-auto">Creamer could be replaced by fresh milk</p>
-            </div>
-            <div class="manrope-font max-sm:mb-4 rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 max-sm:max-w-[350px] max-sm:mx-auto">
-                <img class="m-auto" src="./images/tea-2.png" alt="">
-                <h1 class="font-extrabold text-[25px] mt-7 mb-3">Black Tea</h1>
-                <p class="w-[208px] max-sm:m-auto">Creamer could be replaced by fresh milk</p>
-            </div>
-            <div class="manrope-font max-sm:mb-4 rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 max-sm:max-w-[350px] max-sm:mx-auto">
-                <img class="m-auto" src="./images/tea-3.png" alt="">
-                <h1 class="font-extrabold text-[25px] mt-7 mb-3">Lemon Tea</h1>
-                <p class="w-[208px] max-sm:m-auto">Creamer could be replaced by fresh milk</p>
-            </div>
-            <div class="manrope-font max-sm:mb-4 rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 max-sm:max-w-[350px] max-sm:mx-auto">
-                <img class="m-auto" src="./images/tea-4.png" alt="">
-                <h1 class="font-extrabold text-[25px] mt-7 mb-3">Green Tea</h1>
-                <p class="w-[208px] max-sm:m-auto">Creamer could be replaced by fresh milk</p>
-            </div>
-            
+        <div
+          class="manrope-font max-sm:mb-4 rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 max-sm:max-w-[350px] max-sm:mx-auto"
+        >
+          <img class="m-auto" src="./images/tea-2.png" alt="" />
+          <h1 class="font-extrabold text-[25px] mt-7 mb-3">Black Tea</h1>
+          <p class="w-[208px] max-sm:m-auto">
+            Creamer could be replaced by fresh milk
+          </p>
         </div>
+        <div
+          class="manrope-font max-sm:mb-4 rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 max-sm:max-w-[350px] max-sm:mx-auto"
+        >
+          <img class="m-auto" src="./images/tea-3.png" alt="" />
+          <h1 class="font-extrabold text-[25px] mt-7 mb-3">Lemon Tea</h1>
+          <p class="w-[208px] max-sm:m-auto">
+            Creamer could be replaced by fresh milk
+          </p>
+        </div>
+        <div
+          class="manrope-font max-sm:mb-4 rounded-md bg-gradient-to-t from-white to-[#F5F5F5] p-8 max-sm:max-w-[350px] max-sm:mx-auto"
+        >
+          <img class="m-auto" src="./images/tea-4.png" alt="" />
+          <h1 class="font-extrabold text-[25px] mt-7 mb-3">Green Tea</h1>
+          <p class="w-[208px] max-sm:m-auto">
+            Creamer could be replaced by fresh milk
+          </p>
+        </div>
+      </div>
     </section>
     <section class="sec-2 max-w-[1140px] m-auto mt-[50px]">
-        <div class="sec-2-container max-sm:p-5 md:p-0 max-sm:m-auto flex max-sm:flex-col gap-5 justify-between h-[520px]">
-            <div class="sec-2-img grid gap-4 max-sm:w-full grid-cols-2 grid-rows-3 w-1/2 ">
-                <div class="bg-[#ffeae7] rounded-md"></div>
-                <div class="bg-[#fff4cc] row-span-2 rounded-md flex items-center justify-center"><img class="" src="./images/fresh-2.png" alt=""></div>
-                <div class="bg-[#eef1eb] row-span-2 rounded-md items-center flex items-center justify-center"><img src="./images/fresh-1.png" alt=""></div>
-                <div class="bg-gradient-to-r from-slate-400 to-white rounded-md"></div>
-            </div>
-            <div class="sec-2-text max-sm:w-full w-1/2 content-center">
-                <h3 class="font-extrabold text-[45px] mb-5">Great Tea, Freshly Presented</h3>
-                <p class="font-medium text-[16px] mb-5">The meaning of gong cha is chinese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its customers  because of good words of mouth and unique customized service originated from Taiwan.</p>
-                
-                <h2 class="font-extrabold text-[20px] mb-3">Unique Taste</h2>
-                <p class="font-medium text-[16px] mb-5">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-                
-                <h2 class="font-extrabold text-[20px]mb-3">Premium Quality</h2>
-                <p class="font-medium text-[16px] mb-5">Premium Quality that makes tea more elegant and more durable when you use it.</p>
-            </div>
+      <div
+        class="sec-2-container max-sm:p-5 md:p-0 max-sm:m-auto flex max-sm:flex-col gap-5 justify-between h-[520px]"
+      >
+        <div
+          class="sec-2-img grid gap-4 max-sm:w-full grid-cols-2 grid-rows-3 w-1/2"
+        >
+          <div class="bg-[#ffeae7] rounded-md"></div>
+          <div
+            class="bg-[#fff4cc] row-span-2 rounded-md flex items-center justify-center"
+          >
+            <img class="" src="./images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="bg-[#eef1eb] row-span-2 rounded-md items-center flex justify-center"
+          >
+            <img src="./images/fresh-1.png" alt="" />
+          </div>
+          <div
+            class="bg-gradient-to-r from-slate-400 to-white rounded-md"
+          ></div>
         </div>
+        <div class="sec-2-text max-sm:w-full w-1/2 content-center">
+          <h3 class="font-extrabold text-[45px] mb-5">
+            Great Tea, Freshly Presented
+          </h3>
+          <p class="font-medium text-[16px] mb-5">
+            The meaning of gong cha is chinese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its customers because of good words of mouth and
+            unique customized service originated from Taiwan.
+          </p>
+
+          <h2 class="font-extrabold text-[20px] mb-3">Unique Taste</h2>
+          <p class="font-medium text-[16px] mb-5">
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+
+          <h2 class="font-extrabold text-[20px]mb-3">Premium Quality</h2>
+          <p class="font-medium text-[16px] mb-5">
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </div>
     </section>
-</body>
+    <section
+      class="sec-3 relative max-w-[1140px] m-auto mt-[50px] bg-linear-to-r from-orange-500 to-red-500 rounded-md"
+    >
+      <img
+        class="absolute bottom-0 left-[120px]"
+        src="./images/bg_cup.png"
+        alt=""
+      />
+      <div class="rev-sec flex gap-5 mx-[70px] py-[85px]">
+        <div class="rev-sec-left content-center">
+          <h3
+            class="rev-sec-left-heading manrope-font text-white font-extrabold text-5xl"
+          >
+            Meet Our Super Clients
+          </h3>
+          <p
+            class="rev-sec-left-paragraph manrope-font max-w-[450px] text-white font-medium text-[16px] mt-5"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button
+            class="rev-sec-left-btn manrope-font bg-white px-4 py-2 rounded-md font-medium text-[16px] mt-5"
+          >
+            <span
+              class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600"
+              >Show All</span
+            >
+          </button>
+        </div>
+        <div class="rev-sec-right flex justify-center relative">
+          <div
+            class="rev-card-container flex flex-col items-center gap-[30px] relative"
+          >
+            <!-- Card 1 (Behind Top) -->
+            <div
+              class="rev-card1 w-[433px] h-[233px] bg-white rounded-md scale-95 opacity-50 z-0 transition-all duration-500"
+            >
+              <img
+                class="absolute top-[-30px] left-[-30px] border-4 border-white rounded-full"
+                src="./images/client.png"
+                alt="client"
+              />
+              <img
+                class="absolute top-[185px] left-[380px]"
+                src="./images/circles.png"
+                alt="client"
+              />
+              <div class="card-content px-12 pt-10">
+                <p class="text text-black opacity-50">
+                  We are providing the best and suitable home insurance services
+                  for the people who are interested to treatment
+                </p>
+                <p class="name mt-7 text-black font-bold">Ilham Yuda</p>
+                <p class="ocupation text-black opacity-50">Businessman</p>
+              </div>
+            </div>
+
+            <!-- Card 3 (Behind Bottom) -->
+            <div
+              class="rev-card3 w-[433px] h-[233px] bg-white rounded-md scale-95 opacity-50 z-0 transition-all duration-500"
+            >
+              <img
+                class="absolute top-[-30px] left-[-30px] border-4 border-white rounded-full"
+                src="./images/client.png"
+                alt="client"
+              />
+              <img
+                class="absolute top-[185px] left-[380px]"
+                src="./images/circles.png"
+                alt="client"
+              />
+              <div class="card-content px-12 pt-10">
+                <p class="text text-black opacity-50">
+                  We are providing the best and suitable home insurance services
+                  for the people who are interested to treatment
+                </p>
+                <p class="name mt-7 text-black font-bold">Ilham Yuda</p>
+                <p class="ocupation text-black opacity-50">Businessman</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Active Card (Floating on top, not taking space) -->
+          <div
+            class="rev-card2 w-[433px] h-[233px] bg-white rounded-md shadow-2xl scale-95 z-20 absolute left-1/2 -translate-x-[70%] top-1/2 -translate-y-[60%] transition-all duration-500"
+          >
+            <img
+              class="absolute top-[-30px] left-[-30px] border-4 border-white rounded-full"
+              src="./images/client.png"
+              alt="client"
+            />
+            <img
+              class="absolute top-[185px] left-[380px]"
+              src="./images/circles.png"
+              alt="client"
+            />
+            <div class="card-content px-12 pt-10">
+              <p class="text text-black opacity-50">
+                We are providing the best and suitable home insurance services
+                for the people who are interested to treatment
+              </p>
+              <p class="name mt-7 text-black font-bold">Ilham Yuda</p>
+              <p class="ocupation text-black opacity-50">Businessman</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec-4 max-w-[1140px] m-auto mt-[50px]"></section>
+  </body>
 </html>
